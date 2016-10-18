@@ -16,9 +16,6 @@ class App extends React.Component {
     scrollY: new Animated.Value(0),
   }
 
-  componentDidMount() {
-  }
-
   render() {
     let { scrollY } = this.state;
 
